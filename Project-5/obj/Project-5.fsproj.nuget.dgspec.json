@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Sem-1\\DOSP\\Projects\\Project-5\\Project-5.fsproj": {}
+  },
+  "projects": {
+    "D:\\Sem-1\\DOSP\\Projects\\Project-5\\Project-5.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sem-1\\DOSP\\Projects\\Project-5\\Project-5.fsproj",
+        "projectName": "Project-5",
+        "projectPath": "D:\\Sem-1\\DOSP\\Projects\\Project-5\\Project-5.fsproj",
+        "packagesPath": "C:\\Users\\guntu\\.nuget\\packages\\",
+        "outputPath": "D:\\Sem-1\\DOSP\\Projects\\Project-5\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guntu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Akka": {
+              "target": "Package",
+              "version": "[1.4.29, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.29, )",
+              "generatePathProperty": true
+            },
+            "Akka.TestKit": {
+              "target": "Package",
+              "version": "[1.4.29, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Json": {
+              "target": "Package",
+              "version": "[0.4.1, )",
+              "generatePathProperty": true
+            },
+            "Hyperion": {
+              "target": "Package",
+              "version": "[0.11.2, )",
+              "generatePathProperty": true
+            },
+            "Suave": {
+              "target": "Package",
+              "version": "[2.6.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

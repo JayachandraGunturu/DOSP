@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Quv303h4EmphVB+saOvVeHdm9hRvTFuHFhS/4C1V1Myw1ka30y2klspA7Tems/+Z41TWbBM1c547pybAhqmJHQ==",
+  "success": true,
+  "projectFilePath": "D:\\Sem-1\\DOSP\\Project-3\\Project-3.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guntu\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\guntu\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\guntu\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\guntu\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+    <PkgMessagePack Condition=" '$(PkgMessagePack)' == '' ">C:\Users\guntu\.nuget\packages\messagepack\1.6.1.2</PkgMessagePack>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\guntu\.nuget\packages\fsharp.core\5.0.0</PkgFSharp_Core>
+    <PkgAkka_Serialization_MessagePack Condition=" '$(PkgAkka_Serialization_MessagePack)' == '' ">C:\Users\guntu\.nuget\packages\akka.serialization.messagepack\1.1.0</PkgAkka_Serialization_MessagePack>
+    <PkgAkka_Serialization_Hyperion Condition=" '$(PkgAkka_Serialization_Hyperion)' == '' ">C:\Users\guntu\.nuget\packages\akka.serialization.hyperion\1.4.25</PkgAkka_Serialization_Hyperion>
+    <PkgAkka_Remote_Transport_Helios Condition=" '$(PkgAkka_Remote_Transport_Helios)' == '' ">C:\Users\guntu\.nuget\packages\akka.remote.transport.helios\1.3.18</PkgAkka_Remote_Transport_Helios>
+    <PkgAkka_Remote Condition=" '$(PkgAkka_Remote)' == '' ">C:\Users\guntu\.nuget\packages\akka.remote\1.4.25</PkgAkka_Remote>
+    <PkgAkka_Remote_TestKit Condition=" '$(PkgAkka_Remote_TestKit)' == '' ">C:\Users\guntu\.nuget\packages\akka.remote.testkit\1.4.25</PkgAkka_Remote_TestKit>
+    <PkgAkka_FSharp Condition=" '$(PkgAkka_FSharp)' == '' ">C:\Users\guntu\.nuget\packages\akka.fsharp\1.4.25</PkgAkka_FSharp>
+    <PkgAkka_Cluster_TestKit Condition=" '$(PkgAkka_Cluster_TestKit)' == '' ">C:\Users\guntu\.nuget\packages\akka.cluster.testkit\1.4.25</PkgAkka_Cluster_TestKit>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>Project_3</RootNamespace>
+		<WarnOn>3390;$(WarnOn)</WarnOn>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Include="Program.fs" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Akka.FSharp" Version="1.4.41" />
+		<PackageReference Include="Akka.Persistence.FSharp" Version="1.4.41" />
+		<PackageReference Include="BigInteger" Version="1.0.7" />
+	</ItemGroup>
+</Project>
